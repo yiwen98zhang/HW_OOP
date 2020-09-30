@@ -11,7 +11,9 @@ Please type in the dataset you want to see (Counties, States, or US):
 For displaying the data in us-counties.csv, type 'Counties'.  
 For displaying the data in us-states.csv, type 'States'.  
 For displaying the data in us.csv, type 'US'.  
-Then the first 10 rows of each dataset would be printed on your screen.
+Then the first 10 rows of each dataset would be printed on your screen. The output would be shown like this:
+![Image text](https://github.com/yiwen98zhang/HW_OOP/blob/master/Docs/output%20example.png)
+
 
 ## OOP concepts implemented
 class *ReadGeneral*, class *ReadCounties*, class *ReadStates*, and class *ReadUS* are classes.  
@@ -31,3 +33,4 @@ We utilized the *abc* module to create the abstract class, so make sure this mod
 
 ## Result of SonarQube
 ![Image text](https://github.com/yiwen98zhang/HW_OOP/blob/master/Docs/SonarQubeScreenshot.png)
+![Image text](https://github.com/yiwen98zhang/HW_OOP/blob/master/Docs/SonarQubeResult2.png)
