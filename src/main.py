@@ -6,8 +6,8 @@ from read_US import ReadUS
 dataType = input('Please type in the dataset you want to see (Counties, States, or US):')
 
 
-path_upper = os.path.abspath(os.path.dirname(os.getcwd()))
-path_data =  path_upper + '/data'
+path = os.getcwd()
+path_data =  path + '/data'
 
 path_counties = path_data + '/us-counties.csv'
 path_states = path_data + '/us-states.csv'
